@@ -112,7 +112,7 @@ const Testimonials = ({ id }) => {
         </button>
       </div>
 
-      {/* Dots Pagination */}
+     
       <div className="dots-container">
         {Array.from({ length: totalPages }).map((_, i) => (
           <span

@@ -4,9 +4,7 @@ import { useState ,useRef} from "react";
 import emailjs from '@emailjs/browser'; 
 import { AnimatePresence, motion } from "motion/react"
 import "./contact.css"; 
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
-import doctor from "@/public/doctor_icon.png"
+import Navbar from "@/components/Navbar"
 
 export default function Contact() {
   const form = useRef()

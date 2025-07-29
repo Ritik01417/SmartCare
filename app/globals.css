@@ -1,58 +1,16 @@
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
 
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
 }
-/* Base Styles (as you provided) */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
   background: #e1fafa;
   align-items: center;
-  flex-wrap: wrap; /* Important for wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .logo {
@@ -66,6 +24,7 @@ body {
   gap: 25px;
   list-style: none;
   color: black;
+  
 }
 
 .nav-links li a {
@@ -127,9 +86,7 @@ body {
   height: 500px;
 }
 
-/* Responsive Styles */
 
-/* Mobile (up to 768px) */
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: row;
@@ -142,7 +99,7 @@ body {
     gap: 10px;
     width: 100%;
     margin-top: 15px;
-    margin-left: -40px;
+    justify-content: center;
   }
 
   .hero {
@@ -170,14 +127,13 @@ body {
   }
 }
 
-/* Tablets (768px to 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    /* width:100%; */
+   
   }
 
   .nav-links {
@@ -203,7 +159,7 @@ body {
   }
 }
 
-/* Large Desktop Screens (> 1440px) */
+
 @media screen and (min-width: 1440px) {
   .navbar {
     padding: 30px 100px;
@@ -224,7 +180,6 @@ body {
 
 
 
-/*  Feature section here  */
 .features-section {
   padding: 60px 20px;
   background-color: #cad9e8;
@@ -246,7 +201,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Feature Cards */
+
 .feature-card {
   background: white;
   padding: 30px 20px;
@@ -261,7 +216,7 @@ body {
   animation: fadeUp 0.8s ease forwards;
 }
 
-/* Staggered animation delay for cards */
+
 .feature-card:nth-child(1) { animation-delay: 0.2s; }
 .feature-card:nth-child(2) { animation-delay: 0.4s; }
 .feature-card:nth-child(3) { animation-delay: 0.6s; }
@@ -280,9 +235,6 @@ body {
   animation: fadeIn 1s ease forwards;
 }
 
-/* Media Queries */
-
-/* Tablets */
 @media (max-width: 1024px) {
   .features-section {
     padding: 50px 30px;
@@ -301,7 +253,7 @@ body {
   }
 }
 
-/* Mobiles */
+
 @media (max-width: 768px) {
   .features-section {
     padding: 40px 20px;
@@ -321,7 +273,7 @@ body {
   }
 }
 
-/* Large screens */
+
 @media (min-width: 1600px) {
   .features-section {
     padding: 80px 200px;
@@ -337,7 +289,7 @@ body {
   }
 }
 
-/* Animations */
+
 @keyframes fadeUp {
   0% {
     opacity: 0;
@@ -370,36 +322,3 @@ body {
     transform: scale(1);
   }
 }
-
-
-/*  Testimonials section */
-
-/* .testimonials {
-  padding: 60px 80px;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.testimonials h2 {
-  font-size: 32px;
-  margin-bottom: 30px;
-} */
-
-/* .testimonial-card {
-  padding: 30px;
-  background: #f1f5f9;
-  border-radius: 10px;
-  max-width: 700px;
-  margin: 0 auto;
-} */
-
-/* .testimonial-card p {
-  font-style: italic;
-  font-size: 18px;
-  margin-bottom: 15px;
-} */
-
-/* .testimonial-card h4 {
-  font-weight: 600;
-  color: #333;
-} */

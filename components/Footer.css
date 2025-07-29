@@ -46,17 +46,6 @@
   position: relative;
 }
 
-/* .footer-col h3::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100px;
-  height: 2px;
-  background-color: #00b4d8;
-  animation: slideIn 1s ease forwards;
-} */
-
 .footer-col ul {
   list-style: none;
   padding: 0;
@@ -105,7 +94,7 @@
   color: #aaa;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .footer-top {
     padding: 0 20px;
@@ -144,7 +133,6 @@
   }
 }
 
-/* Animations */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
