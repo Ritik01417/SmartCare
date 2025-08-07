@@ -205,11 +205,6 @@ const EmergencyServices = () => {
               Learn More
             </button>
           </div>
-          
-          {/* <div className='responseTime'>
-            <span className='responseIcon'>⚡</span>
-            Average Response Time: <strong>4 minutes</strong>
-          </div> */}
         </div>
         
         <div className='scrollIndicator' ref={scrollIndicatorRef}>
@@ -299,38 +294,6 @@ const EmergencyServices = () => {
         </div>
       </section>
 
-      {/* Emergency Contact Section */}
-      {/* <section className='contactSection'>
-        <div 
-          className='contactContent'
-          ref={el => sectionRefs.current[2] = el}
-        >
-          <h2 className='contactTitle'>Emergency Contacts</h2>
-          <div className='contactGrid'>
-            <div className='contactItem'>
-              <div className='contactIcon'>📞</div>
-              <div className='contactInfo'>
-                <h3>Emergency Hotline</h3>
-                <p className='contactNumber'>911</p>
-              </div>
-            </div>
-            <div className='contactItem'>
-              <div className='contactIcon'>🏥</div>
-              <div className='contactInfo'>
-                <h3>Hospital Direct</h3>
-                <p className='contactNumber'>+91 654-123-4567</p>
-              </div>
-            </div>
-            <div className='contactItem'>
-              <div className='contactIcon'>☣️</div>
-              <div className='contactInfo'>
-                <h3>Poison Control</h3>
-                <p className='contactNumber'>+91 257-222-1222</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <Footer/>
     </div>
   );
