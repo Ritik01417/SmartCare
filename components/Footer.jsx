@@ -37,9 +37,8 @@ const Footer = () => {
 
         <div className="footer-col">
           <h3>Contact Us</h3>
-          <p>Email: medicare@gmail.com</p>
-          {/* <p>Phone: +91 </p> */}
-          <p>Address: Varamed Health Solution,Sector 46, Gurugram, India</p>
+          <p>Email: smartcare@gmail.com</p>
+          <p>Address: Ritik-IT Solution,Sector 6, Gurugram, India</p>
         </div>
       </div>
 
