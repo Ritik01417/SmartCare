@@ -261,7 +261,7 @@ const ExpertDoctors = () => {
       <section className='doctorsSection' id="doctors">
         <div className='sectionHeader' ref={sectionHeaderRef}>
           <h2 className='sectionTitle'>Our Medical Specialists</h2>
-          <p className='sectionSubtitle'>
+          <p className='expert-sectionSubtitle'>
             Meet the dedicated professionals who make exceptional healthcare possible through their expertise, compassion, and commitment to excellence.
           </p>
         </div>

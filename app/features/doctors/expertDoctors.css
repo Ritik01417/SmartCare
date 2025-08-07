@@ -1,100 +1,3 @@
-/* .doctors-section {
-  padding: 60px 20px;
-  background-color: #f2f8fc;
-  text-align: center;
-}
-
-.doctors-section h2 {
-  font-size: 32px;
-  color: #00b7a8;
-  margin-bottom: 40px;
-}
-
-.doctors-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.doctor-card {
-  background: white;
-  border-radius: 16px;
-  overflow: hidden;
-  width: 100%;
-  max-width: 280px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.doctor-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
-}
-
-.doctor-image {
-  width: 100%;
-  height: 250px;
-  background-color: #f7f7f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  padding: 10px;
-}
-
-.doctor-image img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-
-.doctor-info {
-  padding: 20px;
-  background-color: #ffffff;
-}
-
-.doctor-info h3 {
-  margin: 0;
-  font-size: 18px;
-  color: #333;
-}
-
-.doctor-info p {
-  font-size: 14px;
-  color: #666;
-  margin: 8px 0 16px;
-}
-
-.doctor-button {
-  display: inline-block;
-  padding: 10px 16px;
-  background-color: #00b7a8;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 14px;
-  transition: background-color 0.3s ease;
-}
-
-.doctor-button:hover {
-  background-color: #00998d;
-}
-
-
-@media (max-width: 768px) {
-  .doctors-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .doctor-card {
-    max-width: 90%;
-  }
-} */
-
-/* ExpertDoctors.module.css */
 
 .container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -233,7 +136,7 @@
   background-clip: text;
 }
 
-.sectionSubtitle {
+.expert-sectionSubtitle {
   font-size: 1.2rem;
   color: #64748b;
   max-width: 600px;
