@@ -49,7 +49,6 @@
 
 import { useEffect, useRef } from 'react';
 import   './expertDoctors.css';
-import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 const ExpertDoctors = () => {

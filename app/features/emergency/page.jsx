@@ -97,14 +97,14 @@ const EmergencyServices = () => {
       id: 5,
       title: "Emergency Surgery",
       description: "Immediate surgical intervention when needed",
-      icon: "⚕️",
+      icon: "☣️",
       stats: { availability: "24/7", surgeons: "10+", response: "< 20 min" }
     },
     {
       id: 6,
       title: "Poison Control",
       description: "Immediate treatment for poisoning and overdose",
-      icon: "☣️",
+      icon: "⚕️",
       stats: { hotline: "24/7", response: "< 2 min", antidotes: "200+" }
     }
   ];
